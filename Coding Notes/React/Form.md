@@ -1,0 +1,1 @@
+To prevent form submit button from refreshing the page, add `event.preventDefault()` to the submit handling function.
