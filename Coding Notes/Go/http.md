@@ -10,7 +10,7 @@ func main() {
         fmt.Fprintf(w, "Hello World!")
     })
 
-    http.ListenAndServer(":3000", nil)
+    http.ListenAndServe(":3000", nil)
 }
 ```
 
@@ -26,6 +26,6 @@ func main() {
         http.Error(w, "Error Occured", http.StatusInternalServerError)
     })
 
-    http.ListenAndServer(":3000", nil)
+    http.ListenAndServe(":3000", nil)
 }
 ```
