@@ -1,6 +1,8 @@
 ```bash
 git config <option> <config-name> <value>
 ```
+NOTE: most of the time you want to use the `--global` option
+
 Configure name and email
 ```bash
 git config user.name "Full Name"
