@@ -13,9 +13,9 @@ import App from "./App.tsx"  // App.jsx if not using typescript
 import "./index.css"
 
 createRoot(document.getElementById("root")!).render(  // ! only for typescript
-    <StrictMode>
-	    <BrowserRouter>
-		    <App />
+	<StrictMode>
+		<BrowserRouter>
+			<App />
 		</BrowserRouter>
 	</StrictMode>
 )

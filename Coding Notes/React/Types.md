@@ -1,5 +1,5 @@
 ## HTML
-- `<input>` tag's `onChange` event variable is instance of `react.ChangeEvent<HTMLInputElement>`
+- `<input>` tag's `onChange` event variable is instance of `React.ChangeEvent<HTMLInputElement>`
 - `<form>` tag's `onSubmit` event variable is instance of `React.FormEvent<HTMLFormElement>`
 ## React
 - Function Components return `React.ReactElement`
