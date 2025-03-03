@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-    http.HandleFunc("/", func(w, http.ResponseWriter, r *http.Request) {
+    http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
         tmpl := template.Must(template.ParseFiles("file.html"))
         tmpl.Execute(w, nil)
     })
@@ -27,7 +27,7 @@ import (
 )
 
 func main() {
-    http.HandleFunc("/", func(w, http.ResponseWriter, r *http.Request) {
+    http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
         tmpl := template.Must(template.ParseFiles("file.html"))
         tmpl.ExecuteTemplate(w, "tmplname", nil)
     })
@@ -57,7 +57,7 @@ import (
 )
 
 func main() {
-    http.HandleFunc("/", func(w, http.ResponseWriter, r *http.Request) {
+    http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
         tmpl := template.Must(template.ParseGlob("*.html"))
         tmpl.ExecuteTemplate(w, "index", nil)
     })
@@ -91,7 +91,7 @@ type Index struct {
 }
 
 func main() {
-    http.HandleFunc("/", func(w, http.ResponseWriter, r *http.Request) {
+    http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
         tmpl := template.Must(template.ParseGlob("*.html"))
         indexData := Index{Data: "Example"}
         tmpl.ExecuteTemplate(w, "index", indexData)
@@ -121,7 +121,7 @@ type Index struct {
 }
 
 func main() {
-    http.HandleFunc("/", func(w, http.ResponseWriter, r *http.Request) {
+    http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
         tmpl := template.Must(template.ParseGlob("*.html"))
         indexData := Index {
             Data: map[string]string {
@@ -156,7 +156,7 @@ type Index struct {
 }
 
 func main() {
-    http.HandleFunc("/", func(w, http.ResponseWriter, r *http.Request) {
+    http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
         tmpl := template.Must(template.ParseGlob("*.html"))
         indexData := Index {
             Data: []string {
@@ -187,7 +187,7 @@ type Index struct {
 }
 
 func main() {
-    http.HandleFunc("/", func(w, http.ResponseWriter, r *http.Request) {
+    http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
         funcMap := template.FuncMap {
             "toUpper": strings.ToUpper,
         }
