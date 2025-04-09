@@ -7,7 +7,7 @@ curl --fail --remote-name --location --continue-at - {https://github.com/ppy/osu
 sudo chmod +x osu.AppImage
 sudo mv -f osu.AppImage /usr/local/bin/osu
 ```
-# How to use
+## Flatpak
 ```bash
-osu
+flatpak install flathub sh.ppy.osu
 ```

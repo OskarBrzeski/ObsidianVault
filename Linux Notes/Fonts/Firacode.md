@@ -1,6 +1,6 @@
 https://github.com/tonsky/FiraCode
 # How to install
-# Arch
+## Arch
 ```bash
 sudo pacman -S ttf-fira-code
 sudo pacman -S ttf-firacode-nerd
