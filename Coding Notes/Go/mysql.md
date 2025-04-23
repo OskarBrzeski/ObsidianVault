@@ -12,7 +12,8 @@ var db *sql.DB
 func initDB() {
 	var err error
 
-	db, err = sql.Open("mysql", "username:password@(IPaddress:port)/db-name?parseTime=true")
+	db, err = sql.Open("mysql",
+		"username:password@(IPaddress:port)/db-name?parseTime=true")
 	if err != nil {
 		log.Fatal(err)
 	}
