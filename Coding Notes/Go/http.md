@@ -14,6 +14,14 @@ func main() {
 }
 ```
 
+Serve static files
+```go
+http.Handle("/static/", http.StripPrefix(
+	"/static/",
+	http.FileServer(http.Dir("static"))
+))
+```
+
 Respond with an error
 ```go
 import (

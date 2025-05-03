@@ -17,6 +17,15 @@ router.HandleFunc("/endpoint", handlerFunc).Methods("PUT", "PATCH")
 router.HandleFunc("/endpoint/{id}", handlerFunc)
 ```
 
+Serve static files
+```go
+router.PathPrefix("/static/").Handler(
+	http.StripPrefix(
+		"/static/",
+		http.FileServer(http.Dir("static"))
+	)
+```
+
 Pass router to http server
 ```go
 http.ListenAndServe(":3000", router)
