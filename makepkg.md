@@ -12,7 +12,7 @@ Make a package and install its dependencies:
 makepkg -s
 ```
 
-Make a package, install its dependencies and install it to the system:
+Make a package, install its dependencies and install the package:
 ```bash
 makepkg -si
 ```

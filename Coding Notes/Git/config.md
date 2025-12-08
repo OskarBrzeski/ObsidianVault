@@ -5,25 +5,25 @@ NOTE: most of the time you want to use the `--global` option
 
 Configure name and email
 ```bash
-git config user.name "Full Name"
-git config user.email "email@provider.com"
+git config --global user.name "Full Name"
+git config --global user.email "email@provider.com"
 ```
 Configure default text editor
 ```bash
-git config core.editor "nvim"
+git config --global core.editor "nvim"
 ```
 Store credentials
 ```bash
-git config credential.helper store
+git config --global credential.helper store
 git push  # Enter credentials
 ```
 Set timeout for credentials
 ```bash
-git config credential.helper "cache --timeout <time-in-s>"
+git config --global credential.helper "cache --timeout <time-in-s>"
 ```
 Set default branch name
 ```bash
-git config init.defaultBranch "main"
+git config --global init.defaultBranch "main"
 ```
 ## Options
 **`--local`** 

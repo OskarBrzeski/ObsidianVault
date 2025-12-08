@@ -1,4 +1,4 @@
-The Arch User Repository is a collection of git repositories that can be used to install packages on Arch Linux. Packages in the AUR are not present in the official Arch repositories and therefore cannot be installed using `pacman`.
+The Arch User Repository is a collection of git repositories that can be used to install packages on Arch Linux. Packages in the AUR are not present in the official Arch repositories and therefore cannot be immediately installed using `pacman`.
 ## Prerequisites
 To download AUR packages ensure you have `git` and `base-devel` installed:
 ```bash
@@ -15,7 +15,7 @@ A valid `PKGBUILD` file must have the following variables:
 - `arch` - CPU architectures to be compiled for
 
 Always review the `PKGBUILD` file before installing a package to ensure that it does not include malicious instructions, as almost all of them are made by the community.
-## makepkg
+## [[makepkg]]
 `makepkg` is a utility that turns an AUR repository into a package archive.
 ## Install Package from AUR
 Download the git repository of the package you wish to install:

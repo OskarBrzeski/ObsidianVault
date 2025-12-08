@@ -42,9 +42,11 @@ Serve HTML from multiple template
     {{template "main"}}
 </body>
 {end}
+
 {{define "header"}}
 <header></header>
 {{end}}
+
 {{define "main"}}
 <main></main>
 {{end}}
@@ -72,6 +74,7 @@ Pass data to templates
     {{template "main" .}}
 </body>
 {{end}}
+
 {{define "main"}}
 <main>
     {{.Main}}
@@ -175,6 +178,7 @@ Use function in template
 <p>{{toUpper .Data}}</p>
 {{end}}
 ```
+
 ```go
 import (
     "html/template"
