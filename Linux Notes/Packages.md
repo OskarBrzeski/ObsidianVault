@@ -1,7 +1,7 @@
 # First time startup
 [[Git]] - Version control software
 [[Nala]] - Package manager (front-end for apt)
-[[Pacman]] - Package manager (Arch)
+[[pacman]] - Package manager (Arch)
 [[Yay]] - Package manager (AUR)
 # Other programs
 [[Bitwarden]] - Password manager

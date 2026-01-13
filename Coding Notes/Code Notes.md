@@ -18,7 +18,9 @@
 # HTMX
 - [[HTMX]]
 # React
+- [[Clipboard]]
 - [[Form]]
 - [[React Router DOM]]
 - [[Types]]
+- [[URL]]
 - [[Vite]]

@@ -1,4 +1,4 @@
-Start a simple http server
+Start a simple HTTP server
 ```go
 import (
     "fmt"
