@@ -11,7 +11,7 @@
 # Go
 - [[Gorilla mux]]
 - [[http]]
-- [[mysql]]
+- [[MySQL]]
 - [[New Project]]
 - [[SQL]]
 - [[templates]]

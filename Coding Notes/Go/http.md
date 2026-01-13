@@ -37,3 +37,29 @@ func main() {
     http.ListenAndServe(":3000", nil)
 }
 ```
+
+Use a mux
+```go
+import (
+	"fmt"
+	"net/http"
+)
+
+func main() {
+	mux := http.NewServeMux()
+	
+	mux.HandleFunc("/", HandleMainPage)
+	
+	mux.Handle("/static/",
+				http.StripPrefix("/static/",
+				http.FileServer(http.Dir("static"))
+				)
+	)
+	
+	http.ListenAndServe(":3000", mux)
+}
+
+func HandleMainPage(w http.ResponseWriter, r *http.Request) {
+	fprintf(w, "Hello World")
+}
+```
