@@ -1,5 +1,5 @@
 https://github.com/tonsky/FiraCode
-# How to install
+# Installation
 ## Arch
 ```bash
 sudo pacman -S ttf-fira-code
@@ -9,7 +9,7 @@ sudo pacman -S ttf-firacode-nerd
 ```bash
 sudo nala install fonts-firacode
 ```
-## Nerd Font
+### Nerd Font
 https://www.nerdfonts.com/font-downloads
 FiraCode Nerd Font
 

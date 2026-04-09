@@ -1,9 +1,9 @@
-pv is a utility that provides a progress bar for some UNIX commands.
-# How to Install
+Utility that provides a progress bar for some UNIX commands.
+# Installation
 ```bash
 sudo pacman -S pv
 ```
-# How to Use
+# Usage
 ```bash
 command | pv > output
 ```

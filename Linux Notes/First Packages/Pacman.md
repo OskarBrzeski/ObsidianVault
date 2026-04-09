@@ -1,4 +1,5 @@
-# How to use
+Default package manager for Arch Linux.
+# Usage
 Install a package
 ```bash
 pacman -S <package-name>

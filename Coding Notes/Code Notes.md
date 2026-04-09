@@ -10,7 +10,7 @@
 - [[config]]
 # Go
 - [[Gorilla mux]]
-- [[http]]
+- [[HTTP]]
 - [[MySQL]]
 - [[New Project]]
 - [[SQL]]

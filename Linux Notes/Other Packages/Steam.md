@@ -1,5 +1,6 @@
+Digital store for video games.
 https://store.steampowered.com
-# How to install
+# Installation
 ## Arch
 ```bash
 sudo pacman -S steam

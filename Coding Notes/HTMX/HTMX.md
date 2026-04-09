@@ -1,3 +1,17 @@
+Small JS library that provides AJAX requests and single-page navigation.
+https://htmx.org/docs/
+# Installation
+Install the `htmx.min.js` file from the official site: https://cdn.jsdelivr.net/npm/htmx.org@2.0.8/dist/.
+
+Place the file within your project (e.g. `./static/htmx.min.js`).
+
+Finally, include a script tag in the head element of your html file.
+```html
+<head>
+	<script src="/static/htmx.min.js"></script>
+</head>
+```
+# Usage
 ```html
 <element hx-verb="/endpoint" hx-option="example"></element>
 ```

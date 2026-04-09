@@ -1,5 +1,6 @@
+Note-taking app.
 https://obsidian.md
-# How to install
+# Installation
 ## Arch
 ```bash
 sudo pacman -S obsidian

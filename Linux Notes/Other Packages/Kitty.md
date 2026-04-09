@@ -1,10 +1,11 @@
+Terminal Emulator.
 https://sw.kovidgoyal.net/kitty/
-# How to install
+# Installation
 ## Arch
 ```bash
 sudo pacman -S kitty
 ```
-## Terminal
+## Manual
 ```bash
 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
 ln -sf ~/.local/kitty.app/bin/kitty ~/.local/kitty.app/bin/kitten ~/.local/bin/
@@ -17,11 +18,11 @@ cp ~/.local/kitty.app/share/applications/kitty-open.desktop ~/.local/share/appli
 sed -i "s|Icon=kitty|Icon=/home/$USER/.local/kitty.app/share/icons/hicolor/256x256/apps/kitty.png|g" ~/.local/share/applications/kitty*.desktop
 sed -i "s|Exec=kitty|Exec=/home/$USER/.local/kitty.app/bin/kitty|g" ~/.local/share/applications/kitty*.desktop
 ```
-# How to update
+### How to update
 ```bash
 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
 ```
-# How to Use
+# Usage
 The Kitty modifier key is `Ctrl+Shift`. I will henceforth refer to this as `KittyMod`.
 Create new tab
 ```

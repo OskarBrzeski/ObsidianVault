@@ -1,4 +1,4 @@
-# How to install
+# Installation
 ## Arch
 ```bash
 yay -S moc-pulse
@@ -11,7 +11,7 @@ sudo nala install moc moc-ffmpeg-plugin
 ```bash
 mocp
 ```
-# Config Files
+# Configuration
 Local moc config
 ```
 ~/.moc/config

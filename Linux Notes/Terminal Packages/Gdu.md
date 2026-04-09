@@ -1,4 +1,5 @@
-# How to install
+Command-line tool for viewing storage space.
+# Installation
 ## Arch
 ```bash
 sudo pacman -S gdu
@@ -7,7 +8,12 @@ sudo pacman -S gdu
 ```bash
 sudo nala install gdu
 ```
-# How to use
+# Usage
+Check current directory
 ```bash
 gdu
+```
+Check specific directory
+```bash
+gdu filepath
 ```

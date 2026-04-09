@@ -1,10 +1,11 @@
+Front-end for Debian's default package manager.
 https://phoenixnap.com/kb/nala-apt
-# How to install
+# Installation
 ```bash
 sudo apt upgrade && sudo apt update
 sudo apt install nala
 ```
-# How to use
+# Usage
 Installing a package
 ```bash
 sudo nala install [package-name]

@@ -1,8 +1,13 @@
+Firefox-based web browser focused on privacy.
 https://librewolf.net
-# How to install
+# Installation
+## CachyOS repositories
+```bash
+sudo pacman -S librewolf-bin
+```
 ## AUR
 ```bash
-yay -S librewolf-bin
+paru -S librewolf-bin
 ```
 ## Flatpak
 ```bash

@@ -1,8 +1,13 @@
+VSCode with telemetry disabled by default.
 https://vscodium.com/
-# How to install
+# Installation
+## CachyOS repositories
+```bash
+sudo pacman -S vscodium
+```
 ## Arch
 ```bash
-yay -S vscodium-bin
+paru -S vscodium
 ```
 ## Debian
 ```bash

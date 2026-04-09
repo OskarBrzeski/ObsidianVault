@@ -50,10 +50,12 @@ func main() {
 	
 	mux.HandleFunc("/", HandleMainPage)
 	
-	mux.Handle("/static/",
-				http.StripPrefix("/static/",
-				http.FileServer(http.Dir("static"))
-				)
+	mux.Handle(
+		"/static/",
+		http.StripPrefix(
+			"/static/",
+			http.FileServer(http.Dir("static"))
+		)
 	)
 	
 	http.ListenAndServe(":3000", mux)

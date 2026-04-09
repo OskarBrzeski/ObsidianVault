@@ -42,4 +42,4 @@ To generate a `.SRCINFO` file, run the following command:
 makepkg --printsrcinfo > .SRCINFO
 ```
 ## AUR helpers
-AUR packages can be installed with ease using an AUR helper. The most commonly used helper is [[yay]].
+AUR packages can be installed with ease using an AUR helper. One of the most commonly used helpers is [[Paru]].

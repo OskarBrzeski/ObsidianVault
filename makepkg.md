@@ -1,4 +1,4 @@
-`makepkg` is a Bash script which is used to create package archives that can be installed using [[pacman]].
+`makepkg` is a Bash script which is used to create package archives that can be installed using [[Pacman]].
 ## Installation
 `makepkg` already exists in a standard Arch Linux install.
 

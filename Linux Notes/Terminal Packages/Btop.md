@@ -1,4 +1,5 @@
-# How to install
+Command-line tool for monitoring system resources.
+# Installation
 ## Arch
 ```bash
 sudo pacman -S btop
@@ -7,7 +8,7 @@ sudo pacman -S btop
 ```bash
 sudo nala install btop
 ```
-# How to use
+# Usage
 ```bash
 btop
 ```

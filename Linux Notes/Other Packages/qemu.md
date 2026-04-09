@@ -1,6 +1,7 @@
+Virtual Machine.
 https://computingforgeeks.com/install-kvm-qemu-virt-manager-arch-manjar/
 https://wiki.archlinux.org/title/QEMU
-# How to Install
+# Installation
 ## Check if virtualisation is on
 ```bash
 grep -E -c '(vmx|svm)' /proc/cpuinfo

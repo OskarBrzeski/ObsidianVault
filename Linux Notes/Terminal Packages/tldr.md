@@ -1,4 +1,5 @@
-# How to install
+Command-line tool which prints common ways to use a particular command.
+# Installation
 ## Arch
 ```bash
 sudo pacman -S tealdeer
@@ -7,7 +8,7 @@ sudo pacman -S tealdeer
 ```bash
 sudo nala install tldr
 ```
-# How to use
+# Usage
 Download pages
 ```bash
 tldr -u

@@ -1,5 +1,6 @@
+Desktop application for password manager.
 https://bitwarden.com
-# How to install
+# Installation
 ## Arch
 ```bash
 sudo pacman -S bitwarden

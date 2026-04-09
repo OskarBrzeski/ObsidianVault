@@ -1,5 +1,5 @@
 https://github.com/catppuccin/catppuccin
-# How to install
+# Installation
 ## GNOME Terminal
 ```bash
 curl -L https://raw.githubusercontent.com/catppuccin/gnome-terminal/v0.2.0/install.py | python3 -

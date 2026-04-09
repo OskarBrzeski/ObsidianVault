@@ -1,9 +1,10 @@
-# How to install
+Terminal Multiplexer.
+# Installation
 ## Arch
 ```bash
 sudo pacman -S tmux
 ```
-# How to use
+# Usage
 ## Outside tmux
 Starting a session
 ```bash
@@ -93,7 +94,7 @@ Close current pane
 ```
 ctrl+b x
 ```
-# Config files
+# Configuration
 Local tmux config
 ```
 $XDG_CONFIG_HOME/tmux/tmux.conf  # if set
