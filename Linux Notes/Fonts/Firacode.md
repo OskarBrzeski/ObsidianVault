@@ -2,8 +2,7 @@ https://github.com/tonsky/FiraCode
 # Installation
 ## Arch
 ```bash
-sudo pacman -S ttf-fira-code
-sudo pacman -S ttf-firacode-nerd
+sudo pacman -S ttf-fira-code ttf-firacode-nerd
 ```
 ## Debian
 ```bash

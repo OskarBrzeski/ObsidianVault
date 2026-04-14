@@ -1,12 +1,12 @@
 `makepkg` is a Bash script which is used to create package archives that can be installed using [[Pacman]].
-## Installation
+# Installation
 `makepkg` already exists in a standard Arch Linux install.
 
 Ensure you have all of the needed dependencies using the following command:
 ```bash
 sudo pacman -S git base-devel
 ```
-## Usage
+# Usage
 Make a package and install its dependencies:
 ```bash
 makepkg -s
@@ -21,5 +21,5 @@ Generate `.SRCINFO` file for a repository:
 ```bash
 makepkg --printsrcinfo > .SRCINFO
 ```
-## Location
+# Location
 The `makepkg` script can be found in `/usr/bin/makepkg`.
