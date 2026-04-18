@@ -34,3 +34,13 @@ gcc file.c -I./libdir/ -L./libdir/ -lexample
 gcc file.c -I./libdir/ -L./libdir/ -l:libexmpale.a
 gcc file.c -I./libdir/ -L./libdir/ -l:libexample.so
 ```
+
+# Parallel compilation
+## Compile with set number of cores
+```bash
+gcc -j4 ...
+```
+## Compile with all cores
+```bash
+gcc -j$(nproc) ...
+```
