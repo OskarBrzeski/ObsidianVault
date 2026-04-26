@@ -22,7 +22,7 @@ gcc -o outputname file.o
 gcc file.c -I./dirname/
 ```
 # Libraries
-NOTE: Libraries must be included *after* the files, otherwise the linked decides to not work.
+NOTE: Libraries must be included *after* the files, otherwise the linker decides to not work.
 ## Compile a program with a library
 ```bash
 gcc file.c -l{libname}
