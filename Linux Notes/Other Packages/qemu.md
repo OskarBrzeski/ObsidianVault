@@ -50,7 +50,7 @@ Once done, reboot and start using Virtual Machine Manager.
 ## Unable to open /dev/net/tun, is tun module loaded?
 Running kernel is different from installed kernel. Reboot system to fix.
 
-Virt Manager will work as long as these two commands give the same output.
+Virt Manager should work as long as these two commands give the same output.
 ```bash
 pacman -Q linux
 uname -r
