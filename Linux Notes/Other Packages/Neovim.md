@@ -25,3 +25,10 @@ sudo pacman -S wl-clipboard  # Wayland (doesn't work currently)
 
 sudo pacman -S xclip  # X11
 ```
+
+# Usage
+## Sudoedit
+In `.bashrc`:
+```bash
+export SUDO_EDITOR="nvim"
+```
