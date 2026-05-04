@@ -1,6 +1,6 @@
 # Arch
 ```bash
-sudo pacman -S gnu-gcobol
+sudo pacman -S gcc-gcobol
 ```
 
 # Manual
