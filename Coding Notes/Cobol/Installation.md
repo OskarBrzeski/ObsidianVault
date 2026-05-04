@@ -26,7 +26,7 @@ cd gnucobol-3.2
 ## Dependencies
 ### Arch
 ```bash
-sudo pacman -S libgmp-dev
+sudo pacman -S make gcc gmp db
 ```
 ### Debian
 ```bash
@@ -41,4 +41,8 @@ Configure Makefile
 Compile the compiler
 ```bash
 make
+```
+Install the compiler
+```bash
+make install
 ```
