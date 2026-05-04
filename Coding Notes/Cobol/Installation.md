@@ -46,3 +46,13 @@ Install the compiler
 ```bash
 make install
 ```
+# Usage
+```bash
+cobc
+```
+# Errors
+## error while loading shared libraries: `libcob.so.4`
+Ensure environment variable points to where the library can be found.
+```bash
+export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+```
