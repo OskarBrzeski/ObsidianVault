@@ -5,7 +5,6 @@ sudo pacman -S gcc-gcobol
 
 # Manual
 Download from SourceForge: https://sourceforge.net/projects/gnucobol/files/
-
 ## Extract archive
 Ensure you have `lzip` installed.
 ### Arch
@@ -32,7 +31,7 @@ sudo pacman -S make gcc gmp db
 ```bash
 sudo nala install libgmp-dev libdb5.3-dev
 ```
-TODO: figure out shared object not found
+
 ## Install
 Configure Makefile
 ```bash
