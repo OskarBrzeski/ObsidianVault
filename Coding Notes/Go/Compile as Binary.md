@@ -1,4 +1,4 @@
-## Build as dynamically linked binary
+## Compile as dynamically linked binary
 ```bash
 go build -o binary-file path/to/main.go
 ```
