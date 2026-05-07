@@ -29,7 +29,7 @@ sudo pacman -S make gcc gmp db
 ```
 ### Debian
 ```bash
-sudo nala install libgmp-dev libdb5.3-dev
+sudo nala install make gcc libgmp-dev libdb-dev
 ```
 
 ## Install
@@ -43,11 +43,5 @@ make
 ```
 Install the compiler
 ```bash
-make install
-```
-# Errors
-## error while loading shared libraries: `libcob.so.4`
-Ensure environment variable points to where the library can be found.
-```bash
-export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+sudo make install
 ```
