@@ -1,17 +1,23 @@
-# Arch
+# COBOL front-end for GCC
+## Arch
 ```bash
 sudo pacman -S gcc-gcobol
 ```
-
-# Manual
+# GnuCobol
+## Debian
+```bash
+sudo nala install gnucobol
+```
+## Manual
 Download from SourceForge: https://sourceforge.net/projects/gnucobol/files/
-## Extract archive
+### **Extract archive**
 Ensure you have `lzip` installed.
-### Arch
+
+Arch
 ```bash
 sudo pacman -S lzip
 ```
-### Debian
+Debian
 ```bash
 sudo nala install lzip
 ```
@@ -22,17 +28,17 @@ tar -xf gnucobol-3.2.tar.lz
 cd gnucobol-3.2
 ```
 
-## Dependencies
-### Arch
+### **Dependencies**
+Arch
 ```bash
 sudo pacman -S make gcc gmp db
 ```
-### Debian
+Debian
 ```bash
 sudo nala install make gcc libgmp-dev libdb-dev
 ```
 
-## Install
+### **Install**
 Configure Makefile
 ```bash
 ./configure
