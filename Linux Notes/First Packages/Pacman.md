@@ -31,3 +31,8 @@ Remove orphaned packages
 ```bash
 pacman -Qdtq | pacman -Rns -
 ```
+Re-download all packages
+```bash
+sudo pacman -Scc
+pacman -Qq | pacman -Sw --noconfirm -
+```
